@@ -9,7 +9,7 @@ html, body {
 
 header {
     background: #403B30;
-    height: 4rem;
+    height: 50px;
 }
 
 h1 {
@@ -27,4 +27,49 @@ h2 {
 
 .container {
     background-color: rgba(211, 211, 211, 0.5);
+    width: 90%;
+    margin-top: 2rem;
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: right;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+}
+
+li a:hover {
+    background-color: #635a47;
+}
+
+a {
+    color: #E5E5E5;
+}
+
+.container2 {
+    background-color: #403B30;
+}
+
+.container3 {
+    border-color: #403B30;
+    border-width: 4px;
+}
+
+.display {
+    display: flex;
 }
