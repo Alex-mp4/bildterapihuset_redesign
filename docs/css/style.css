@@ -36,6 +36,11 @@ h2 {
     margin-bottom: 2rem;
 }
 
+.container h3 {
+    line-height: 2;
+    font-weight: 100;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -63,13 +68,41 @@ a {
 
 .container2 {
     background-color: #403B30;
+    border-radius: 6px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-left: 2rem;
+    box-shadow: 3px 3px 2px grey;
+}
+
+.container2 li {
+    color: #AEA9A0;
+    font-size: 20px;
 }
 
 .container3 {
-    border-color: #403B30;
+    border: 4px solid #777268;
+    border-color: #777268;
     border-width: 4px;
+    border-radius: 6px;
+    width: 50%;
+    margin-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-shadow: 3px 3px 2px grey;
+}
+
+.container3 h2 {
+    text-align: center;
+    text-shadow: 1px 1px 1px grey;
 }
 
 .display {
     display: flex;
+    margin: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
