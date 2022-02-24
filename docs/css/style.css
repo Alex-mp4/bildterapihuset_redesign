@@ -5,8 +5,10 @@ body {
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Varta', sans-serif;
 }
 
+@media (min-width: 786px) {
 header {
     background: #403B30;
     height: 50px;
@@ -18,22 +20,62 @@ h1 {
     padding: 0;
     width: 60%;
     font-size: 80px;
+    font-family: 'Rufina', serif;
 }
 
 h2 {
     margin: 0;
     padding-top: 1rem;
+    font-family: 'Rufina', serif;
+    font-size: 32px;
+}
+
+.title {
+    font-size: 24px;
+    word-spacing: 10px;
+    line-height: 3rem;
+    margin-right: 6rem;
+}
+
+.boxtext {
+    font-size: 18px;
+    word-spacing: 6px;
+    font-weight: 2200;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .container {
-    background-color: rgba(211, 211, 211, 0.5);
+    background-color: rgba(211, 211, 211, 0.75);
     width: 90%;
     margin-top: 2rem;
     display: flex;
     margin: auto;
     margin-top: 2rem;
     border-radius: 12px;
-    margin-bottom: 2rem;
+    margin-bottom: 6rem;
+    position: relative;
+    align-items: center;
+}
+
+.container h3 {
+    padding-right: 6rem;
+    word-spacing: 3px;
+}
+
+.container img {
+    height: 24rem;
+    width: 4.6rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.img img {
+    position: absolute;
+    width: 100%;
+    height: 92%;
 }
 
 .container h3 {
@@ -66,6 +108,15 @@ a {
     color: #E5E5E5;
 }
 
+.container2 ul {
+    list-style: none;
+}
+
+.container2 ul li::before {
+    content: "• ";
+    color: #FFBA3B;
+}
+
 .container2 {
     background-color: #403B30;
     border-radius: 6px;
@@ -76,11 +127,13 @@ a {
     flex-direction: column;
     margin-left: 2rem;
     box-shadow: 3px 3px 2px grey;
+    line-height: 2.5rem;
 }
 
 .container2 li {
     color: #AEA9A0;
-    font-size: 20px;
+    font-size: 1.5rem;
+    padding-right: 2rem;
 }
 
 .container3 {
@@ -105,4 +158,31 @@ a {
     margin: 2rem;
     padding-right: 2rem;
     padding-left: 2rem;
+}
+
+.button {
+    display: flex;
+    margin: 0, auto;
+    padding-bottom: 2rem;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.button button {
+    width: 12rem;
+    height: 2.5rem;
+    background-color: #403B30;
+    border-radius: 10px;
+    color: #AEA9A0;
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Rufina', serif;
+    text-shadow: 1px 0px 0px black;
+}
+
+br {
+    display: block;
+    content: "";
+    margin-top: 20px;
+}
 }
