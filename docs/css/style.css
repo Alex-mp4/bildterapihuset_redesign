@@ -47,7 +47,7 @@ h2 {
 .boxtext {
     font-size: 18px;
     word-spacing: 6px;
-    font-weight: 2200;
+    font-weight: lighter;
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -180,7 +180,7 @@ a {
 
 .button {
     display: flex;
-    margin: 0, auto;
+    margin: 0 auto;
     padding-bottom: 2rem;
     text-align: center;
     justify-content: space-around;
