@@ -35,7 +35,6 @@ h2 {
     width: 50px;
     background-color: #AEA9A0;
     box-shadow: 2px 0px 2px #272727;
-    margin-right: 47.4rem;
 }
 
 .title {
@@ -91,13 +90,20 @@ h2 {
     font-weight: 100;
 }
 
+.space {
+    justify-content: space-between;
+    display: flex;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+}
+
+.flex {
     display: flex;
-    justify-content: flex-end;
 }
 
 nav ul li img {
@@ -144,7 +150,7 @@ a {
 
 .container2 li {
     color: #AEA9A0;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding-right: 2rem;
 }
 
