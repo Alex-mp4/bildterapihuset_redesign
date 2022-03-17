@@ -332,8 +332,18 @@ h2 {
 }
 
 .container img {
-    height: 0px;
-    width: 0px;
+    height: 24rem;
+    width: 4.6rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+@media (max-width: 568px) {
+.container img {
+    display: none;
+}
 }
 
 .img img {
